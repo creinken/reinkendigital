@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import '../Home.css';
 
 class Home extends Component {
@@ -16,7 +17,7 @@ class Home extends Component {
                         <hr />
 
                         <p class="text">Thank you for visiting. I am an independent Information Technology specialist with experience in
-                            anything from basic PC troubleshooting to network switching and routing to programming in Java, VBasic, and
+                            anything from basic PC troubleshooting to network switching and routing to programming in React, Ruby, and
                             others.</p>
                     </div>
                 </div>
@@ -25,10 +26,8 @@ class Home extends Component {
                     <div class="col-xl-12">
                         <p class="text" id="secPara">I have been working with computers and home office computing for over 15 years, either for myself,
                             friends and family, or for my grandfather’s home business. I am always continuing my education, and hope to
-                            break
-                            into the career that has been my passion for longer than I can remember. So please, take a look around. If you
-                            like what you see, you can <a href="#" onclick="return changeContent('HTML/contact.html', 'contact');">contact me</a> at any time. Have a great
-                            day!
+                            break into the career that has been my passion for longer than I can remember. So please, take a look around. If you
+                            like what you see, you can <NavLink to="/contact" exact>contact me</NavLink> at any time. Have a great day!
                         </p>
                     </div>
                 </div>
