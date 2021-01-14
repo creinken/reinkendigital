@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../Home.css';
+import headShot from '../resources/man-475559_640.jpg';
 
 class Home extends Component {
 
@@ -10,7 +11,7 @@ class Home extends Component {
             <Container>
                 <Row>
                     <Col md={6} sm={12}>
-                        <img id="binaryface" src="Resources/man-475559_640.jpg" />
+                        <img id="binaryface" src={ headShot } />
                     </Col>
 
                     <Col md={6} sm={12}>
