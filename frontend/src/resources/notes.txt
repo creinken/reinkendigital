@@ -1,0 +1,6 @@
+color pallet {
+    background = #363637
+    highlights = #B4A4A2
+    navbar background = #848AA5
+    text = #8DA06A
+}
