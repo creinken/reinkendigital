@@ -4,3 +4,10 @@ color pallet {
     navbar background = #848AA5
     text = #8DA06A
 }
+
+#44d4b4	rgb(68, 212, 180)
+#93e6d3	rgb(147, 230, 211)
+#3c857d	rgb(60, 133, 125)
+#4c9484	rgb(76, 148, 132)
+#b8b9c0	rgb(184, 185, 192)
+#305c54	rgb(48, 92, 84)
